@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = 'NzAzOTkyNjE0MDU1MzEzNDkz.XqWqtg.MudIDk0GT5oFAqiuJi_NfjAmpo4';
+const token = 'You can not see this HA HA';
 
 const prefix = '!';
 
@@ -15,7 +15,17 @@ bot.on('message', message => {
 
     switch (args[0]) {
         case 'guide':
-            message.channel.send('follow the clouds');
+            message.channel.send('Follow the clouds');
+        break;
+    }
+    switch (args[0]) {
+        case 'speak':
+            message.channel.send('I have spoken');
+        break;
+    }
+    switch (args[0]) {
+        case 'eat':
+            message.channel.send('Yummy, nice food');
         break;
     }
 });
